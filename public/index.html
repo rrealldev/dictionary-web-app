@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dictionary API App</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="bg-slate-800 pb-10">
+        <h1 class="text-center text-2xl text-white font-bold p-5">Dictionary Web App using Free Dictionary API</h1>
+        <h1 class="text-center text-base text-white font-normal">Find word definitions</h1>
+        <div class="flex justify-center items-center mt-5">
+            <input type="text" id="search-input" placeholder="Enter a word..." class="ring-2 border-none rounded-lg p-2">
+            <button id="search-button" class="ml-2 p-2 text-white">Search</button>
+        </div>
+    </div>
+    <div id="search-results" class="mt-5 mx-5 border-dashed border-2 border-gray-700 rounded-lg p-5 h-max">
+        <p class="text-gray-500 text-center">Search results will appear here</p>
+    </div>
+    <div id="personalDictionary" class="m-5 border-dashed border-2 border-gray-700 rounded-lg p-5 h-max">
+        <p class="text-gray-900 text-center text-lg font-bold mb-3">New Words I've Learned:</p>
+    </div>
+    <script src="script.js"></script>  
+</body>
+</html>
